@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.brand-logo {
+  width: 147px;
+  height: 147px;
+  border: 1px solid white repeat padding-box;
+  border-radius: 50%;
+  margin-top: 10px;
+  font-size: 4rem;
+  font-family: Poppins;
+  color: #eb2929;
+}
+body {
+  margin: 0px !important;
+}
+p {
+  margin: 0px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-check-input {
+  border: 2px solid #3a5075;
+  border-radius: 2px;
+}
+
+.col-3 {
+  box-shadow: 0px 3px 6px #00000029;
+}
+.res-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+.text-dark {
+  color: #192f60 !important;
+}
+.text-font > {
+  color: #192f60 !important;
+}
+.zamto > li {
+  color: #8c96ab;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+  border: 1px solid #8c96ab;
+}
+.active {
+  background-color: gray;
+  color: white !important;
+}
+.modal-content {
+}
+.main-text {
+  font-size: 36px;
+  font-family: Poppins;
+}
+.main-text1 {
+  font-size: 25px;
+  font-family: Poppins;
+}
+
+@media screen and (max-width: 600px) {
+  .brand-logo {
+    color: #eb2929;
+    width: 90px;
+    height: 90px;
+    font-size: 42px;
+  }
+}
+.imge {
+  background-image: linear-gradient(transparent, rgba(23, 5, 5, 0.864)),
+    url("./my1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 480px) {
+  .imge {
+    background-image: linear-gradient(transparent, rgba(23, 5, 5, 0.864)),
+      url("./my22.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.h {
+  color: white;
+}
+.colr1 {
+  color: #192f60;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 30px;
+}
+.colr {
+  color: #8c96ab;
+  font-family: Poppins;
+}
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .colr1 {
+    font-size: 24px;
+  }
+  .colr {
+    font-size: 13px;
+    font-weight: 660;
+  }
+}
+.list-item-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  object-position: 50%;
+
+  /* object-fit:fill; */
+}
+
+.cart1 {
+  font-size: 18px;
+  color: #192f60 !important;
+  font-weight: 650;
+  font-family: Poppins;
+}
+.cart2 {
+  font-size: 14px;
+  color: #8c96ab !important;
+}
+.bor {
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
+}
+.bor:hover {
+  /* -ms-transform: scale(1.5); /* IE 9 */
+  /* -webkit-transform: scale(1.5); Safari 3-8 */
+  cursor: pointer;
+  box-shadow: 11px -11px 11px -10px #ce0505;
+  transform: scale(1);
+}
+.input {
+  outline: none;
+  border-radius: 0px;
+  border: none;
+  font-size: 15px;
+  padding-left: 23px;
+}
+.wid {
+  margin-left: 5px;
+  width: 246px;
+  height: 50px;
+}
+.res {
+  max-width: 477px;
+  height: 50px;
+  margin-left: 0px;
+}
+.re1 {
+  max-width: 477px;
+  height: 50px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+.re1 > .input3 {
+  width: 400px;
+  height: 50px;
+  outline: none;
+  border-radius: 0px;
+  padding-left: 1rem;
+  font-size: 15px;
+  border: none;
+  border: #ce0505;
+}
+.res > .input2 {
+  width: 436px;
+  height: 50px;
+  outline: none;
+  border-radius: 0px;
+  font-size: 15px;
+  border: none;
+  border: #ce0505;
+}
+.res > span {
+  margin-left: 25px;
+  padding-top: 14px;
+  padding-left: 18px;
+  padding-right: 40px;
+  width: 50px;
+  height: 50px;
+  size: 5px;
+  color: #74819e;
+  background-color: white;
+}
+.sa {
+  color: #74819e;
+}
+.mar1 {
+  margin-bottom: 100px;
+}
+
+.loc-ul {
+  position: relative;
+}
+.loc-ul > ul {
+  position: absolute;
+  border-radius: 0;
+  width: 246px;
+  margin-left: 5px;
+  z-index: 1;
+  top: 100%;
+  /* left: 4px; */
+}
+.loc-min {
+  position: relative;
+}
+
+.loc-min > ul {
+  position: absolute;
+  width: 95.7%;
+  top: 100%;
+  z-index: 1;
+  border-radius: 0;
+}
+.loc-min > ul > li:hover {
+  background-color: #aab4c9;
+  cursor: pointer;
+}
+.loc-ul > ul > li:hover {
+  background-color: #aaafb9;
+  cursor: pointer;
+}
+.search-res {
+  position: relative;
+}
+.search-res > ul {
+  position: absolute;
+
+  width: 94.8%;
+  top: 100%;
+  border-radius: 0;
+  margin-left: 25px;
+}
+.ser-res {
+  position: relative;
+}
+.ser-res > ul {
+  position: absolute;
+  width: 90.4%;
+  top: 80%;
+  border-radius: 0;
+  margin-left: 25px;
+}
+.liul > li :hover {
+  /* transition: all ease-in-out ; */
+}
+.ok > li:hover {
+  background-color: #aaafb9;
+  cursor: pointer;
+}
+
+/* jjj
+ */
